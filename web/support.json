@@ -1,0 +1,2027 @@
+{
+  "dim": {
+    "word": "dim",
+    "canonical": "dim",
+    "meaning": "become vague or indistinct",
+    "pos": "verb"
+  },
+  "contented": {
+    "word": "contented",
+    "canonical": "contented",
+    "meaning": "satisfied or showing satisfaction with things as they are",
+    "pos": "adjective"
+  },
+  "intemperate": {
+    "word": "intemperate",
+    "canonical": "intemperate",
+    "meaning": "given to excessive indulgence of bodily appetites especially for intoxicating liquors",
+    "pos": "adjective"
+  },
+  "reclusive": {
+    "word": "reclusive",
+    "canonical": "reclusive",
+    "meaning": "providing privacy or seclusion",
+    "pos": "adjective"
+  },
+  "whet": {
+    "word": "whet",
+    "canonical": "whet",
+    "meaning": "sharpen by rubbing, as on a whetstone",
+    "pos": "verb"
+  },
+  "deferential": {
+    "word": "deferential",
+    "canonical": "deferential",
+    "meaning": "showing deference",
+    "pos": "adjective"
+  },
+  "benevolence": {
+    "word": "benevolence",
+    "canonical": "benevolence",
+    "meaning": "an act intending or showing kindness and good will",
+    "pos": "noun"
+  },
+  "reluctant": {
+    "word": "reluctant",
+    "canonical": "reluctant",
+    "pos": "adjective",
+    "meaning": "unwilling or hesitant to do something",
+    "contexts": [
+      "He was ____ to sign the agreement because he disliked its terms, although he discussed them freely."
+    ],
+    "clues": [
+      "Unwillingness to sign concerns action, not silence."
+    ],
+    "distinction": "Reluctant means unwilling to act; reticent means reserved in speech.",
+    "synonyms": []
+  },
+  "categorical": {
+    "word": "categorical",
+    "canonical": "categorical",
+    "meaning": "not modified or restricted by reservations",
+    "pos": "adjective"
+  },
+  "equable": {
+    "word": "equable",
+    "canonical": "equable",
+    "meaning": "not easily irritated",
+    "pos": "adjective"
+  },
+  "commendation": {
+    "word": "commendation",
+    "canonical": "commendation",
+    "meaning": "a message expressing a favorable opinion",
+    "pos": "noun"
+  },
+  "prolong": {
+    "word": "prolong",
+    "canonical": "prolong",
+    "meaning": "lengthen in time; cause to be or last longer",
+    "pos": "verb"
+  },
+  "compassion": {
+    "word": "compassion",
+    "canonical": "compassion",
+    "meaning": "the humane quality of understanding the suffering of others and wanting to do something about it",
+    "pos": "noun"
+  },
+  "solemnity": {
+    "word": "solemnity",
+    "canonical": "solemnity",
+    "meaning": "a trait of dignified seriousness",
+    "pos": "noun"
+  },
+  "civil": {
+    "word": "civil",
+    "canonical": "civil",
+    "meaning": "of or in a condition of social order",
+    "pos": "adjective"
+  },
+  "prosperity": {
+    "word": "prosperity",
+    "canonical": "prosperity",
+    "meaning": "the condition of prospering; having good fortune",
+    "pos": "noun"
+  },
+  "diffidence": {
+    "word": "diffidence",
+    "canonical": "diffidence",
+    "meaning": "lack of self-confidence",
+    "pos": "noun"
+  },
+  "hardened": {
+    "word": "hardened",
+    "canonical": "hardened",
+    "meaning": "converted to solid form (as concrete)",
+    "pos": "adjective"
+  },
+  "reinforced": {
+    "word": "reinforced",
+    "canonical": "reinforced",
+    "meaning": "(used of soaps or cleaning agents) having a substance (an abrasive or filler) added to increase effectiveness",
+    "pos": "adjective"
+  },
+  "concealed": {
+    "word": "concealed",
+    "canonical": "concealed",
+    "meaning": "hidden on any grounds for any motive",
+    "pos": "adjective"
+  },
+  "tumult": {
+    "word": "tumult",
+    "canonical": "tumult",
+    "meaning": "the act of making a noisy disturbance",
+    "pos": "noun"
+  },
+  "energize": {
+    "word": "energize",
+    "canonical": "energize",
+    "pos": "verb",
+    "meaning": "give energy or enthusiasm to",
+    "contexts": [
+      "A short walk can ____ the tired team, leaving everyone more alert and lively."
+    ],
+    "clues": [
+      "Becoming more alert and lively indicates added energy."
+    ],
+    "distinction": "Energize gives energy; enervate drains it.",
+    "synonyms": []
+  },
+  "animation": {
+    "word": "animation",
+    "canonical": "animation",
+    "meaning": "general activity and motion",
+    "pos": "noun"
+  },
+  "active": {
+    "word": "active",
+    "canonical": "active",
+    "meaning": "a person who is a participating member of an organization",
+    "pos": "noun"
+  },
+  "self-interest": {
+    "word": "self-interest",
+    "canonical": "self-interest",
+    "meaning": "Concern for one’s own advantage.",
+    "pos": "noun"
+  },
+  "acerbic": {
+    "word": "acerbic",
+    "canonical": "acerbic",
+    "meaning": "harsh or corrosive in tone",
+    "pos": "adjective"
+  },
+  "voracious": {
+    "word": "voracious",
+    "canonical": "voracious",
+    "meaning": "devouring or craving food in great quantities",
+    "pos": "adjective"
+  },
+  "yielding": {
+    "word": "yielding",
+    "canonical": "yielding",
+    "meaning": "Willing to give way.",
+    "pos": "noun"
+  },
+  "murky": {
+    "word": "murky",
+    "canonical": "murky",
+    "meaning": "dark or gloomy",
+    "pos": "adjective"
+  },
+  "affluence": {
+    "word": "affluence",
+    "canonical": "affluence",
+    "meaning": "abundant wealth",
+    "pos": "noun"
+  },
+  "extravagance": {
+    "word": "extravagance",
+    "canonical": "extravagance",
+    "meaning": "excessive spending",
+    "pos": "noun"
+  },
+  "modesty": {
+    "word": "modesty",
+    "canonical": "modesty",
+    "meaning": "formality and propriety of manner",
+    "pos": "noun"
+  },
+  "embraced": {
+    "word": "embraced",
+    "canonical": "embraced",
+    "meaning": "A contrast word used in this question.",
+    "pos": "adjective"
+  },
+  "tranquility": {
+    "word": "tranquility",
+    "canonical": "tranquility",
+    "meaning": "a disposition free from stress or emotion",
+    "pos": "noun"
+  },
+  "utopian": {
+    "word": "utopian",
+    "canonical": "utopian",
+    "meaning": "characterized by or aspiring to impracticable perfection",
+    "pos": "adjective"
+  },
+  "exuberance": {
+    "word": "exuberance",
+    "canonical": "exuberance",
+    "meaning": "overflowing with eager enjoyment or approval",
+    "pos": "noun"
+  },
+  "irrelevant": {
+    "word": "irrelevant",
+    "canonical": "irrelevant",
+    "meaning": "having no bearing on or connection with the subject at issue",
+    "pos": "adjective"
+  },
+  "extinct": {
+    "word": "extinct",
+    "canonical": "extinct",
+    "meaning": "(of e.g. volcanos) permanently inactive",
+    "pos": "adjective"
+  },
+  "satisfied": {
+    "word": "satisfied",
+    "canonical": "satisfied",
+    "meaning": "filled with satisfaction",
+    "pos": "adjective"
+  },
+  "vigorous": {
+    "word": "vigorous",
+    "canonical": "vigorous",
+    "meaning": "characterized by forceful and energetic action or activity",
+    "pos": "adjective"
+  },
+  "frivolity": {
+    "word": "frivolity",
+    "canonical": "frivolity",
+    "meaning": "Lack of seriousness; silly or trivial behavior.",
+    "pos": "noun"
+  },
+  "expeditious": {
+    "word": "expeditious",
+    "canonical": "expeditious",
+    "meaning": "marked by speed and efficiency",
+    "pos": "adjective"
+  },
+  "sensitive": {
+    "word": "sensitive",
+    "canonical": "sensitive",
+    "meaning": "someone who serves as an intermediary between the living and the dead",
+    "pos": "noun"
+  },
+  "secrecy": {
+    "word": "secrecy",
+    "canonical": "secrecy",
+    "meaning": "the trait of keeping things secret",
+    "pos": "noun"
+  },
+  "earnestness": {
+    "word": "earnestness",
+    "canonical": "earnestness",
+    "meaning": "the trait of being serious",
+    "pos": "noun"
+  },
+  "provoke": {
+    "word": "provoke",
+    "canonical": "provoke",
+    "meaning": "provide the needed stimulus for",
+    "pos": "verb"
+  },
+  "abundance": {
+    "word": "abundance",
+    "canonical": "abundance",
+    "meaning": "the property of a more than adequate quantity or supply",
+    "pos": "noun"
+  },
+  "absurd": {
+    "word": "absurd",
+    "canonical": "absurd",
+    "meaning": "a situation in which life seems irrational and meaningless",
+    "pos": "noun"
+  },
+  "leaky": {
+    "word": "leaky",
+    "canonical": "leaky",
+    "meaning": "Allowing unwanted passage of liquid or gas.",
+    "pos": "adjective"
+  },
+  "vituperation": {
+    "word": "vituperation",
+    "canonical": "vituperation",
+    "meaning": "Bitter verbal abuse.",
+    "pos": "noun"
+  },
+  "compliant": {
+    "word": "compliant",
+    "canonical": "compliant",
+    "meaning": "disposed or willing to comply",
+    "pos": "adjective"
+  },
+  "uncomplaining": {
+    "word": "uncomplaining",
+    "canonical": "uncomplaining",
+    "meaning": "not complaining",
+    "pos": "adjective"
+  },
+  "vicious": {
+    "word": "vicious",
+    "canonical": "vicious",
+    "pos": "adjective",
+    "meaning": "cruel, violent, or malicious",
+    "contexts": [
+      "The ____ attack deliberately inflicted pain on a helpless victim."
+    ],
+    "clues": [
+      "Deliberate cruelty and inflicted pain distinguish vicious from thick viscous liquid."
+    ],
+    "distinction": "Vicious concerns cruelty; viscous concerns thickness and resistance to flow.",
+    "synonyms": []
+  },
+  "calculating": {
+    "word": "calculating",
+    "canonical": "calculating",
+    "meaning": "used of persons",
+    "pos": "adjective"
+  },
+  "sycophantic": {
+    "word": "sycophantic",
+    "canonical": "sycophantic",
+    "meaning": "Excessively flattering powerful people to gain favor.",
+    "pos": "adjective"
+  },
+  "idle": {
+    "word": "idle",
+    "canonical": "idle",
+    "meaning": "the state of an engine or other mechanism that is idling",
+    "pos": "noun"
+  },
+  "forthright": {
+    "word": "forthright",
+    "canonical": "forthright",
+    "meaning": "characterized by directness in manner or speech; without subtlety or evasion",
+    "pos": "adjective"
+  },
+  "radiant": {
+    "word": "radiant",
+    "canonical": "radiant",
+    "meaning": "Giving off light; brightly glowing.",
+    "pos": "adjective"
+  },
+  "impractical": {
+    "word": "impractical",
+    "canonical": "impractical",
+    "meaning": "not practical; not workable or not given to practical matters",
+    "pos": "adjective"
+  },
+  "encomium": {
+    "word": "encomium",
+    "canonical": "encomium",
+    "meaning": "a formal expression of praise",
+    "pos": "noun"
+  },
+  "profligacy": {
+    "word": "profligacy",
+    "canonical": "profligacy",
+    "meaning": "dissolute indulgence in sensual pleasure",
+    "pos": "noun"
+  },
+  "substantiated": {
+    "id": "g28-29",
+    "word": "substantiated",
+    "raw": "substantiate",
+    "group": 28,
+    "position": 29,
+    "sourceCell": "O98",
+    "forms": {
+      "base": "substantiate",
+      "noun": null,
+      "verb": null,
+      "adjective": null,
+      "sourceCell": "B840"
+    },
+    "pos": "verb",
+    "meaning": "support a claim with evidence",
+    "synonyms": [
+      "corroborate",
+      "verify"
+    ],
+    "hook": "Place solid bricks beneath a floating claim.",
+    "distinction": "Assert states; substantiate supplies supporting proof.",
+    "contexts": [
+      "The researchers needed independent records to ____ their estimate.",
+      "Without receipts, she could not ____ the allegation of improper spending.",
+      "To ____ the spending allegation, auditors needed receipts and bank records rather than anonymous rumors."
+    ],
+    "clues": [
+      "Records support an estimate.",
+      "Receipts are needed as evidence.",
+      "Documentary evidence is required to support a claim."
+    ],
+    "tag": "evidence",
+    "canonical": "substantiate",
+    "otherSenses": [
+      {
+        "pos": "verb",
+        "definition": "solidify, firm, or strengthen",
+        "synonyms": [],
+        "examples": [
+          "The president's trip will substantiate good relations with the former enemy country"
+        ],
+        "offset": "00221413"
+      },
+      {
+        "pos": "verb",
+        "definition": "establish or strengthen as with new evidence or facts",
+        "synonyms": [
+          "confirm",
+          "corroborate",
+          "sustain",
+          "support",
+          "affirm"
+        ],
+        "examples": [
+          "his story confirmed my doubts",
+          "The evidence supports the defendant"
+        ],
+        "offset": "00665886"
+      },
+      {
+        "pos": "verb",
+        "definition": "make real or concrete; give reality or substance to",
+        "synonyms": [
+          "realize",
+          "realise",
+          "actualize",
+          "actualise"
+        ],
+        "examples": [
+          "our ideas must be substantiated into actions"
+        ],
+        "offset": "01644746"
+      },
+      {
+        "pos": "verb",
+        "definition": "represent in bodily form",
+        "synonyms": [
+          "incarnate",
+          "body forth",
+          "embody"
+        ],
+        "examples": [
+          "He embodies all that is evil wrong with the system",
+          "The painting substantiates the feelings of the artist"
+        ],
+        "offset": "02698443"
+      }
+    ],
+    "senseIds": [
+      "verb:00221413",
+      "verb:00665886",
+      "verb:01644746",
+      "verb:02698443"
+    ],
+    "contentStatus": "authored-draft",
+    "contextMeta": [
+      {
+        "meaning": "support a claim with evidence",
+        "pos": "verb",
+        "senseLabel": "Primary GRE sense"
+      },
+      {
+        "meaning": "support a claim with evidence",
+        "pos": "verb",
+        "senseLabel": "Primary GRE sense"
+      },
+      {
+        "meaning": "support a claim with evidence",
+        "pos": "verb",
+        "senseLabel": "Core GRE sense"
+      }
+    ],
+    "editorialStatus": "reviewed with caveats"
+  },
+  "scrutinize": {
+    "word": "scrutinize",
+    "canonical": "scrutinize",
+    "meaning": "examine carefully for accuracy with the intent of verification",
+    "pos": "verb"
+  },
+  "complaisant": {
+    "word": "complaisant",
+    "canonical": "complaisant",
+    "pos": "adjective",
+    "meaning": "willing to please others or comply with their wishes",
+    "contexts": [
+      "The ____ host readily rearranged the entire dinner to accommodate every guest’s preference."
+    ],
+    "clues": [
+      "Readily accommodating every preference shows willingness to please."
+    ],
+    "distinction": "Complaisant is accommodating; complacent is smugly self-satisfied.",
+    "synonyms": []
+  },
+  "panegyric": {
+    "word": "panegyric",
+    "canonical": "panegyric",
+    "meaning": "a formal expression of praise",
+    "pos": "noun"
+  },
+  "dissipation": {
+    "word": "dissipation",
+    "canonical": "dissipation",
+    "meaning": "useless or profitless activity; using or expending or consuming thoughtlessly or carelessly",
+    "pos": "noun"
+  },
+  "dispassionate": {
+    "word": "dispassionate",
+    "canonical": "dispassionate",
+    "meaning": "unaffected by strong emotion or prejudice",
+    "pos": "adjective"
+  },
+  "proscribe": {
+    "word": "proscribe",
+    "canonical": "proscribe",
+    "pos": "verb",
+    "meaning": "forbid or prohibit",
+    "contexts": [
+      "The new regulation will ____ dumping toxic waste into the river, making it illegal."
+    ],
+    "clues": [
+      "Making the conduct illegal means forbidding it."
+    ],
+    "distinction": "Proscribe forbids; prescribe recommends or orders.",
+    "synonyms": []
+  },
+  "skeptical": {
+    "word": "skeptical",
+    "canonical": "skeptical",
+    "meaning": "denying or questioning the tenets of especially a religion",
+    "pos": "adjective"
+  },
+  "eminent": {
+    "word": "eminent",
+    "canonical": "eminent",
+    "pos": "adjective",
+    "meaning": "distinguished and highly respected",
+    "contexts": [
+      "The ____ physicist received the field’s highest honor for decades of influential research."
+    ],
+    "clues": [
+      "Highest honors and influential research show distinction."
+    ],
+    "distinction": "Eminent means distinguished; imminent means about to happen.",
+    "synonyms": []
+  },
+  "credulous": {
+    "word": "credulous",
+    "canonical": "credulous",
+    "pos": "adjective",
+    "meaning": "too ready to believe claims without sufficient evidence",
+    "contexts": [
+      "The ____ buyer accepted every extravagant promise despite a complete lack of supporting evidence."
+    ],
+    "clues": [
+      "Believing extravagant promises without evidence shows gullibility."
+    ],
+    "distinction": "Credulous describes a gullible person; credible describes a believable claim.",
+    "synonyms": []
+  },
+  "explicit": {
+    "word": "explicit",
+    "canonical": "explicit",
+    "meaning": "precisely and clearly expressed or readily observable; leaving nothing to implication",
+    "pos": "adjective"
+  },
+  "complexity": {
+    "word": "complexity",
+    "canonical": "complexity",
+    "meaning": "the quality of being intricate and compounded",
+    "pos": "noun"
+  },
+  "acrid": {
+    "word": "acrid",
+    "canonical": "acrid",
+    "meaning": "Sharply irritating in smell or taste.",
+    "pos": "adjective"
+  },
+  "appeased": {
+    "id": "g07-01",
+    "word": "appeased",
+    "raw": "appease",
+    "group": 7,
+    "position": 1,
+    "sourceCell": "M4",
+    "forms": {
+      "base": "appease",
+      "noun": "appeasement",
+      "verb": null,
+      "adjective": null,
+      "sourceCell": "B182"
+    },
+    "pos": "verb",
+    "meaning": "calm anger by satisfying demands",
+    "synonyms": [
+      "placate",
+      "pacify"
+    ],
+    "hook": "A cookie quiets an angry child.",
+    "distinction": "Unlike convince, appease reduces hostility.",
+    "contexts": [
+      "The mayor offered concessions to ____ the angry protesters.",
+      "Extra supplies might ____ residents furious about shortages by satisfying their demand for reliable food deliveries.",
+      "The company offered to remove the disputed fee to ____ customers threatening to cancel their accounts."
+    ],
+    "clues": [
+      "Concessions calm protesters.",
+      "Meeting demands aims to calm anger.",
+      "Meeting a demand aims to calm angry customers."
+    ],
+    "tag": "pacification",
+    "canonical": "appease",
+    "otherSenses": [
+      {
+        "pos": "verb",
+        "definition": "make peace with",
+        "synonyms": [
+          "propitiate"
+        ],
+        "examples": [],
+        "offset": "00765213"
+      },
+      {
+        "pos": "verb",
+        "definition": "overcome or allay",
+        "synonyms": [
+          "quell",
+          "stay"
+        ],
+        "examples": [
+          "quell my hunger"
+        ],
+        "offset": "01194114"
+      },
+      {
+        "pos": "verb",
+        "definition": "cause to be more favorably inclined; gain the good will of",
+        "synonyms": [
+          "pacify",
+          "lenify",
+          "conciliate",
+          "assuage",
+          "mollify",
+          "placate",
+          "gentle",
+          "gruntle"
+        ],
+        "examples": [
+          "She managed to mollify the angry customer"
+        ],
+        "offset": "01765392"
+      }
+    ],
+    "senseIds": [
+      "verb:00765213",
+      "verb:01194114",
+      "verb:01765392"
+    ],
+    "contentStatus": "authored-draft",
+    "contextMeta": [
+      {
+        "meaning": "calm anger by satisfying demands",
+        "pos": "verb",
+        "senseLabel": "Primary GRE sense"
+      },
+      {
+        "meaning": "calm anger by satisfying demands",
+        "pos": "verb",
+        "senseLabel": "Primary GRE sense"
+      },
+      {
+        "meaning": "calm anger by satisfying demands",
+        "pos": "verb",
+        "senseLabel": "primary GRE sense: calm anger by satisfying demands"
+      }
+    ],
+    "editorialStatus": "reviewed with caveats"
+  },
+  "inflammatory": {
+    "word": "inflammatory",
+    "canonical": "inflammatory",
+    "meaning": "characterized or caused by inflammation",
+    "pos": "adjective"
+  },
+  "gravity": {
+    "word": "gravity",
+    "canonical": "gravity",
+    "meaning": "a manner that is serious and solemn",
+    "pos": "noun"
+  },
+  "novelty": {
+    "word": "novelty",
+    "canonical": "novelty",
+    "meaning": "cheap showy jewelry or ornament on clothing",
+    "pos": "noun"
+  },
+  "selfless": {
+    "word": "selfless",
+    "canonical": "selfless",
+    "meaning": "showing unselfish concern for the welfare of others",
+    "pos": "adjective"
+  },
+  "deceptive": {
+    "word": "deceptive",
+    "canonical": "deceptive",
+    "meaning": "designed to deceive or mislead either deliberately or inadvertently",
+    "pos": "adjective"
+  },
+  "venial": {
+    "word": "venial",
+    "canonical": "venial",
+    "pos": "adjective",
+    "meaning": "minor or easily forgiven, especially of a fault",
+    "contexts": [
+      "The judge treated the accidental breach as a ____ offense, a trivial lapse rather than grave misconduct."
+    ],
+    "clues": [
+      "Trivial and accidental contrast with grave misconduct."
+    ],
+    "distinction": "Venial means forgivable; venal means corruptible by bribes.",
+    "synonyms": []
+  },
+  "unequivocal": {
+    "word": "unequivocal",
+    "canonical": "unequivocal",
+    "meaning": "admitting of no doubt or misunderstanding; having only one meaning or interpretation and leading to only one conclusion",
+    "pos": "adjective"
+  },
+  "exposed": {
+    "word": "exposed",
+    "canonical": "exposed",
+    "meaning": "not covered with clothing",
+    "pos": "adjective"
+  },
+  "resolved": {
+    "id": "g37-26",
+    "word": "resolved",
+    "raw": "resolve",
+    "group": 37,
+    "position": 26,
+    "sourceCell": "M128",
+    "forms": null,
+    "pos": "noun",
+    "meaning": "firm determination to pursue a goal",
+    "synonyms": [
+      "determination",
+      "steadfastness"
+    ],
+    "hook": "A climber tightens a knot and keeps moving through wind.",
+    "distinction": "A wish may be weak; resolve sustains purposeful effort despite obstacles.",
+    "contexts": [
+      "Repeated setbacks did not weaken her ____ to complete the expedition.",
+      "His ____ was tested by criticism, but he continued the difficult investigation.",
+      "Repeated setbacks strengthened her ____ to finish the expedition rather than persuading her to quit."
+    ],
+    "clues": [
+      "Determination survives repeated obstacles.",
+      "Commitment remains firm under pressure.",
+      "Determination persists and intensifies despite obstacles."
+    ],
+    "tag": "determination",
+    "canonical": "resolve",
+    "otherSenses": [
+      {
+        "pos": "noun",
+        "definition": "the trait of being resolute",
+        "synonyms": [
+          "resoluteness",
+          "firmness",
+          "firmness of purpose",
+          "resolution"
+        ],
+        "examples": [
+          "his resoluteness carried him through the battle",
+          "it was his unshakeable resolution to finish the work"
+        ],
+        "offset": "04861486"
+      },
+      {
+        "pos": "noun",
+        "definition": "a formal expression by a meeting; agreed to by a vote",
+        "synonyms": [
+          "resolution",
+          "declaration"
+        ],
+        "examples": [],
+        "offset": "06511874"
+      },
+      {
+        "pos": "verb",
+        "definition": "cause to go into a solution",
+        "synonyms": [
+          "dissolve",
+          "break up"
+        ],
+        "examples": [
+          "The recipe says that we should dissolve a cup of sugar in two cups of water"
+        ],
+        "offset": "00447309"
+      },
+      {
+        "pos": "verb",
+        "definition": "understand the meaning of",
+        "synonyms": [
+          "answer"
+        ],
+        "examples": [
+          "The question concerning the meaning of life cannot be answered"
+        ],
+        "offset": "00635523"
+      },
+      {
+        "pos": "verb",
+        "definition": "bring to an end; settle conclusively",
+        "synonyms": [
+          "decide",
+          "settle",
+          "adjudicate"
+        ],
+        "examples": [
+          "The case was decided",
+          "The judge decided the case in favor of the plaintiff",
+          "The father adjudicated when the sons were quarreling over their inheritance"
+        ],
+        "offset": "00698855"
+      },
+      {
+        "pos": "verb",
+        "definition": "reach a decision",
+        "synonyms": [
+          "purpose"
+        ],
+        "examples": [
+          "he resolved never to drink again"
+        ],
+        "offset": "00699626"
+      },
+      {
+        "pos": "verb",
+        "definition": "find the solution",
+        "synonyms": [
+          "solve"
+        ],
+        "examples": [
+          "solve an equation",
+          "solve for x"
+        ],
+        "offset": "00733044"
+      },
+      {
+        "pos": "verb",
+        "definition": "reach a conclusion after a discussion or deliberation",
+        "synonyms": [
+          "conclude"
+        ],
+        "examples": [],
+        "offset": "01021420"
+      },
+      {
+        "pos": "verb",
+        "definition": "make clearly visible",
+        "synonyms": [],
+        "examples": [
+          "can this image be resolved?"
+        ],
+        "offset": "02193612"
+      }
+    ],
+    "senseIds": [
+      "noun:04861486",
+      "noun:06511874",
+      "verb:00447309",
+      "verb:00635523",
+      "verb:00698855",
+      "verb:00699626",
+      "verb:00733044",
+      "verb:01021420",
+      "verb:02193612"
+    ],
+    "contentStatus": "authored-draft",
+    "contextMeta": [
+      {
+        "meaning": "firm determination to pursue a goal",
+        "pos": "noun",
+        "senseLabel": "Primary GRE sense"
+      },
+      {
+        "meaning": "firm determination to pursue a goal",
+        "pos": "noun",
+        "senseLabel": "Primary GRE sense"
+      },
+      {
+        "meaning": "firm determination to pursue a goal",
+        "pos": "noun",
+        "senseLabel": "Core GRE sense"
+      }
+    ],
+    "editorialStatus": "reviewed with caveats"
+  },
+  "definitive": {
+    "word": "definitive",
+    "canonical": "definitive",
+    "meaning": "supplying or being a final or conclusive settlement",
+    "pos": "adjective"
+  },
+  "incisive": {
+    "word": "incisive",
+    "canonical": "incisive",
+    "meaning": "suitable for cutting or piercing",
+    "pos": "adjective"
+  },
+  "susceptible": {
+    "word": "susceptible",
+    "canonical": "susceptible",
+    "meaning": "(often followed by `of' or `to') yielding readily to or capable of",
+    "pos": "adjective"
+  },
+  "absorbent": {
+    "word": "absorbent",
+    "canonical": "absorbent",
+    "meaning": "a material having capacity or tendency to absorb another substance",
+    "pos": "noun"
+  },
+  "inane": {
+    "word": "inane",
+    "canonical": "inane",
+    "meaning": "Foolish and lacking substance.",
+    "pos": "adjective"
+  },
+  "abusive": {
+    "word": "abusive",
+    "canonical": "abusive",
+    "meaning": "characterized by physical or psychological maltreatment",
+    "pos": "adjective"
+  },
+  "exacerbated": {
+    "id": "g12-10",
+    "word": "exacerbated",
+    "raw": "exacerbate",
+    "group": 12,
+    "position": 10,
+    "sourceCell": "C46",
+    "forms": {
+      "base": "exacerbate",
+      "noun": null,
+      "verb": null,
+      "adjective": null,
+      "sourceCell": "B341"
+    },
+    "pos": "verb",
+    "meaning": "make a problem or condition worse",
+    "synonyms": [
+      "aggravate",
+      "worsen"
+    ],
+    "hook": "A hand pours salt onto an irritated wound.",
+    "distinction": "Unlike alleviate, exacerbate increases severity.",
+    "contexts": [
+      "Further delays would ____ the shortage of essential supplies.",
+      "His insulting reply only served to ____ the conflict.",
+      "Introducing another contradictory rule would ____ the confusion already troubling applicants."
+    ],
+    "clues": [
+      "Delay worsens an existing shortage.",
+      "Insults intensify an existing dispute.",
+      "Added contradiction makes an existing problem worse."
+    ],
+    "tag": "worsening",
+    "canonical": "exacerbate",
+    "otherSenses": [
+      {
+        "pos": "verb",
+        "definition": "make worse",
+        "synonyms": [
+          "worsen",
+          "aggravate",
+          "exasperate"
+        ],
+        "examples": [
+          "This drug aggravates the pain"
+        ],
+        "offset": "00208210"
+      },
+      {
+        "pos": "verb",
+        "definition": "exasperate or irritate",
+        "synonyms": [
+          "exasperate",
+          "aggravate"
+        ],
+        "examples": [],
+        "offset": "01820901"
+      }
+    ],
+    "senseIds": [
+      "verb:00208210",
+      "verb:01820901"
+    ],
+    "contentStatus": "authored-draft",
+    "contextMeta": [
+      {
+        "meaning": "make a problem or condition worse",
+        "pos": "verb",
+        "senseLabel": "Primary GRE sense"
+      },
+      {
+        "meaning": "make a problem or condition worse",
+        "pos": "verb",
+        "senseLabel": "Primary GRE sense"
+      },
+      {
+        "meaning": "make a problem or condition worse",
+        "pos": "verb",
+        "senseLabel": "primary GRE sense: make a problem or condition worse"
+      }
+    ],
+    "editorialStatus": "reviewed with caveats"
+  },
+  "methodical": {
+    "word": "methodical",
+    "canonical": "methodical",
+    "meaning": "characterized by method and orderliness",
+    "pos": "adjective"
+  },
+  "complaining": {
+    "word": "complaining",
+    "canonical": "complaining",
+    "meaning": "expressing pain or dissatisfaction of resentment",
+    "pos": "adjective"
+  },
+  "moderation": {
+    "word": "moderation",
+    "canonical": "moderation",
+    "meaning": "the action of lessening in severity or intensity",
+    "pos": "noun"
+  },
+  "witty": {
+    "word": "witty",
+    "canonical": "witty",
+    "meaning": "combining clever conception and facetious expression",
+    "pos": "adjective"
+  },
+  "abandoned": {
+    "word": "abandoned",
+    "canonical": "abandoned",
+    "meaning": "forsaken by owner or inhabitants ",
+    "pos": "adjective"
+  },
+  "fragrant": {
+    "word": "fragrant",
+    "canonical": "fragrant",
+    "meaning": "pleasant-smelling",
+    "pos": "adjective"
+  },
+  "succinct": {
+    "word": "succinct",
+    "canonical": "succinct",
+    "meaning": "briefly giving the gist of something",
+    "pos": "adjective"
+  },
+  "equivocal": {
+    "word": "equivocal",
+    "canonical": "equivocal",
+    "meaning": "uncertain as a sign or indication",
+    "pos": "adjective"
+  },
+  "effusive": {
+    "word": "effusive",
+    "canonical": "effusive",
+    "meaning": "extravagantly demonstrative",
+    "pos": "adjective"
+  },
+  "opulent": {
+    "word": "opulent",
+    "canonical": "opulent",
+    "meaning": "rich and superior in quality",
+    "pos": "adjective"
+  },
+  "productive": {
+    "word": "productive",
+    "canonical": "productive",
+    "meaning": "Producing substantial amounts of work or results.",
+    "pos": "adjective"
+  },
+  "heedless": {
+    "word": "heedless",
+    "canonical": "heedless",
+    "meaning": "characterized by careless unconcern",
+    "pos": "adjective"
+  },
+  "vigor": {
+    "word": "vigor",
+    "canonical": "vigor",
+    "meaning": "an imaginative lively style (especially style of writing)",
+    "pos": "noun"
+  },
+  "unlit": {
+    "word": "unlit",
+    "canonical": "unlit",
+    "meaning": "Not illuminated.",
+    "pos": "adjective"
+  },
+  "refuted": {
+    "id": "g23-26",
+    "word": "refuted",
+    "raw": "refute",
+    "group": 23,
+    "position": 26,
+    "sourceCell": "E95",
+    "forms": {
+      "base": "refute",
+      "noun": null,
+      "verb": null,
+      "adjective": null,
+      "sourceCell": "B687"
+    },
+    "pos": "verb",
+    "meaning": "Prove a claim false through evidence or reasoning.",
+    "synonyms": [
+      "disprove",
+      "rebut",
+      "invalidate"
+    ],
+    "hook": "Picture evidence knocking down a false claim.",
+    "distinction": "Deny rejects a claim; refute demonstrates its falsity.",
+    "contexts": [
+      "The records would ____ his claim by showing that he was absent that day.",
+      "The experiment helped ____ the theory when its central prediction repeatedly failed.",
+      "The dated photograph could ____ his assertion that the building had already been demolished."
+    ],
+    "clues": [
+      "Records establish contradiction.",
+      "Failed predictions provide evidence against a theory.",
+      "Contrary evidence proves a specific claim false."
+    ],
+    "tag": "disproof",
+    "canonical": "refute",
+    "otherSenses": [
+      {
+        "pos": "verb",
+        "definition": "prove to be false or incorrect",
+        "synonyms": [
+          "rebut",
+          "controvert"
+        ],
+        "examples": [],
+        "offset": "00667747"
+      },
+      {
+        "pos": "verb",
+        "definition": "overthrow by argument, evidence, or proof",
+        "synonyms": [
+          "rebut"
+        ],
+        "examples": [
+          "The speaker refuted his opponent's arguments"
+        ],
+        "offset": "00814850"
+      }
+    ],
+    "senseIds": [
+      "verb:00667747",
+      "verb:00814850"
+    ],
+    "contentStatus": "authored-draft",
+    "contextMeta": [
+      {
+        "meaning": "Prove a claim false through evidence or reasoning.",
+        "pos": "verb",
+        "senseLabel": "Primary GRE sense"
+      },
+      {
+        "meaning": "Prove a claim false through evidence or reasoning.",
+        "pos": "verb",
+        "senseLabel": "Primary GRE sense"
+      },
+      {
+        "meaning": "Prove a claim false through evidence or reasoning.",
+        "pos": "verb",
+        "senseLabel": "Primary GRE sense"
+      }
+    ],
+    "editorialStatus": "reviewed with caveats"
+  },
+  "propagated": {
+    "id": "g23-24",
+    "word": "propagated",
+    "raw": "propagate",
+    "group": 23,
+    "position": 24,
+    "sourceCell": "E93",
+    "forms": {
+      "base": "propagate",
+      "noun": null,
+      "verb": null,
+      "adjective": null,
+      "sourceCell": "B685"
+    },
+    "pos": "verb",
+    "meaning": "Spread an idea, information, or practice widely.",
+    "synonyms": [
+      "spread",
+      "disseminate",
+      "circulate"
+    ],
+    "hook": "Picture a message branching into many new messages.",
+    "distinction": "Conceal hides information; propagate extends its reach.",
+    "contexts": [
+      "The organization used radio broadcasts to ____ its message across remote villages.",
+      "Careless reposting can ____ false rumors to thousands of readers.",
+      "By sharing unverified messages, users could ____ the rumor far beyond the village where it began.",
+      "The gardeners learned to ____ the rose from cuttings instead of buying a new plant each year."
+    ],
+    "clues": [
+      "Broadcasts spread a message widely.",
+      "Reposting expands rumor circulation.",
+      "Repetition spreads information across a wider audience.",
+      "Producing plants from existing material identifies reproduction."
+    ],
+    "tag": "spreading",
+    "canonical": "propagate",
+    "otherSenses": [
+      {
+        "pos": "verb",
+        "definition": "multiply sexually or asexually",
+        "synonyms": [],
+        "examples": [],
+        "offset": "00055539"
+      },
+      {
+        "pos": "verb",
+        "definition": "cause to propagate, as by grafting or layering",
+        "synonyms": [],
+        "examples": [],
+        "offset": "00055871"
+      },
+      {
+        "pos": "verb",
+        "definition": "cause to become widely known",
+        "synonyms": [
+          "circulate",
+          "circularize",
+          "circularise",
+          "distribute",
+          "disseminate",
+          "broadcast",
+          "spread",
+          "diffuse",
+          "disperse",
+          "pass around"
+        ],
+        "examples": [
+          "spread information",
+          "circulate a rumor",
+          "broadcast the news"
+        ],
+        "offset": "00968211"
+      },
+      {
+        "pos": "verb",
+        "definition": "transmit or cause to broaden or spread",
+        "synonyms": [],
+        "examples": [
+          "This great civilization was propagated throughout the land"
+        ],
+        "offset": "01379256"
+      },
+      {
+        "pos": "verb",
+        "definition": "become distributed or widespread",
+        "synonyms": [
+          "spread"
+        ],
+        "examples": [
+          "the infection spread",
+          "Optimism spread among the population"
+        ],
+        "offset": "01380122"
+      },
+      {
+        "pos": "verb",
+        "definition": "transmit",
+        "synonyms": [],
+        "examples": [
+          "propagate sound or light through air"
+        ],
+        "offset": "01436139"
+      },
+      {
+        "pos": "verb",
+        "definition": "travel through the air",
+        "synonyms": [],
+        "examples": [
+          "sound and light propagate in this medium"
+        ],
+        "offset": "02085573"
+      },
+      {
+        "pos": "verb",
+        "definition": "transmit from one generation to the next",
+        "synonyms": [],
+        "examples": [
+          "propagate these characteristics"
+        ],
+        "offset": "02230447"
+      }
+    ],
+    "senseIds": [
+      "verb:00055539",
+      "verb:00055871",
+      "verb:00968211",
+      "verb:01379256",
+      "verb:01380122",
+      "verb:01436139",
+      "verb:02085573",
+      "verb:02230447"
+    ],
+    "contentStatus": "authored-draft",
+    "contextMeta": [
+      {
+        "meaning": "Spread an idea, information, or practice widely.",
+        "pos": "verb",
+        "senseLabel": "Primary GRE sense"
+      },
+      {
+        "meaning": "Spread an idea, information, or practice widely.",
+        "pos": "verb",
+        "senseLabel": "Primary GRE sense"
+      },
+      {
+        "meaning": "Spread an idea, information, or practice widely.",
+        "pos": "verb",
+        "senseLabel": "Primary GRE sense"
+      },
+      {
+        "meaning": "Produce new plants or organisms from existing ones.",
+        "pos": "verb",
+        "senseLabel": "Biological propagation"
+      }
+    ],
+    "editorialStatus": "reviewed with caveats"
+  },
+  "mendacious": {
+    "word": "mendacious",
+    "canonical": "mendacious",
+    "meaning": "given to lying",
+    "pos": "adjective"
+  },
+  "flourishing": {
+    "word": "flourishing",
+    "canonical": "flourishing",
+    "meaning": "very lively and profitable",
+    "pos": "adjective"
+  },
+  "commodious": {
+    "word": "commodious",
+    "canonical": "commodious",
+    "meaning": "large and roomy (`convenient' is archaic in this sense)",
+    "pos": "adjective"
+  },
+  "aggravate": {
+    "word": "aggravate",
+    "canonical": "aggravate",
+    "meaning": "make worse",
+    "pos": "verb"
+  },
+  "spontaneous": {
+    "word": "spontaneous",
+    "canonical": "spontaneous",
+    "meaning": "said or done without having been planned or written in advance",
+    "pos": "adjective"
+  },
+  "mild": {
+    "word": "mild",
+    "canonical": "mild",
+    "meaning": "mild and pleasant",
+    "pos": "adjective"
+  },
+  "vindictive": {
+    "word": "vindictive",
+    "canonical": "vindictive",
+    "meaning": "showing malicious ill will and a desire to hurt; motivated by spite",
+    "pos": "adjective"
+  },
+  "thrift": {
+    "word": "thrift",
+    "canonical": "thrift",
+    "meaning": "Careful economical use of money or resources.",
+    "pos": "noun"
+  },
+  "chastised": {
+    "id": "g22-02",
+    "word": "chastised",
+    "raw": "chastise",
+    "group": 22,
+    "position": 2,
+    "sourceCell": "C71",
+    "forms": {
+      "base": "chastise",
+      "noun": null,
+      "verb": null,
+      "adjective": null,
+      "sourceCell": "B633"
+    },
+    "pos": "verb",
+    "meaning": "Scold or criticize severely.",
+    "synonyms": [
+      "rebuke",
+      "reprimand",
+      "scold"
+    ],
+    "hook": "Picture a supervisor delivering a sharp reprimand.",
+    "distinction": "Advise offers guidance; chastise expresses strong disapproval.",
+    "contexts": [
+      "The principal would ____ students for deliberately damaging the classroom.",
+      "Instead of gently explaining the error, the manager chose to ____ him publicly.",
+      "The supervisor would ____ the crew for deliberately bypassing safety checks, delivering a stern public rebuke."
+    ],
+    "clues": [
+      "Misconduct prompts severe scolding.",
+      "Harsh criticism contrasts with gentle explanation.",
+      "Severe criticism responds to intentional misconduct."
+    ],
+    "tag": "reprimand",
+    "canonical": "chastise",
+    "otherSenses": [
+      {
+        "pos": "verb",
+        "definition": "censure severely",
+        "synonyms": [
+          "castigate",
+          "objurgate",
+          "chasten",
+          "correct"
+        ],
+        "examples": [
+          "She chastised him for his insensitive remarks"
+        ],
+        "offset": "00824292"
+      }
+    ],
+    "senseIds": [
+      "verb:00824292"
+    ],
+    "contentStatus": "authored-draft",
+    "contextMeta": [
+      {
+        "meaning": "Scold or criticize severely.",
+        "pos": "verb",
+        "senseLabel": "Primary GRE sense"
+      },
+      {
+        "meaning": "Scold or criticize severely.",
+        "pos": "verb",
+        "senseLabel": "Primary GRE sense"
+      },
+      {
+        "meaning": "Scold or criticize severely.",
+        "pos": "verb",
+        "senseLabel": "Primary GRE sense"
+      }
+    ],
+    "editorialStatus": "reviewed"
+  },
+  "intensify": {
+    "word": "intensify",
+    "canonical": "intensify",
+    "meaning": "become more intense",
+    "pos": "verb"
+  },
+  "practical": {
+    "word": "practical",
+    "canonical": "practical",
+    "meaning": "having or put to a practical purpose or use",
+    "pos": "adjective"
+  },
+  "defiant": {
+    "word": "defiant",
+    "canonical": "defiant",
+    "meaning": "boldly resisting authority or an opposing force",
+    "pos": "adjective"
+  },
+  "audacity": {
+    "word": "audacity",
+    "canonical": "audacity",
+    "meaning": "Shameless or bold daring.",
+    "pos": "noun"
+  },
+  "lavishness": {
+    "word": "lavishness",
+    "canonical": "lavishness",
+    "meaning": "excessive spending",
+    "pos": "noun"
+  },
+  "abridge": {
+    "word": "abridge",
+    "canonical": "abridge",
+    "meaning": "lessen, diminish, or curtail",
+    "pos": "verb"
+  },
+  "protracted": {
+    "word": "protracted",
+    "canonical": "protracted",
+    "meaning": "relatively long in duration; tediously protracted",
+    "pos": "adjective"
+  },
+  "disseminated": {
+    "id": "g01-13",
+    "word": "disseminated",
+    "raw": "disseminate",
+    "group": 1,
+    "position": 13,
+    "sourceCell": "A16",
+    "forms": {
+      "base": "disseminate",
+      "noun": null,
+      "verb": null,
+      "adjective": null,
+      "sourceCell": "B14"
+    },
+    "pos": "verb",
+    "meaning": "Spread information or ideas widely.",
+    "synonyms": [
+      "circulate",
+      "distribute"
+    ],
+    "hook": "Memory aid: Imagine seeds blown over fields.",
+    "distinction": "Disseminate spreads widely; disclose first reveals.",
+    "contexts": [
+      "The agency used radio to ____ warnings to remote villages.",
+      "Researchers plan to ____ their findings through open lectures.",
+      "To reach families without internet access, volunteers will ____ the safety instructions through printed leaflets."
+    ],
+    "clues": [
+      "Radio reaches a broad audience.",
+      "Lectures spread knowledge publicly.",
+      "Leaflets spread instructions to many families."
+    ],
+    "tag": "communication",
+    "canonical": "disseminate",
+    "otherSenses": [
+      {
+        "pos": "verb",
+        "definition": "cause to become widely known",
+        "synonyms": [
+          "circulate",
+          "circularize",
+          "circularise",
+          "distribute",
+          "propagate",
+          "broadcast",
+          "spread",
+          "diffuse",
+          "disperse",
+          "pass around"
+        ],
+        "examples": [
+          "spread information",
+          "circulate a rumor",
+          "broadcast the news"
+        ],
+        "offset": "00968211"
+      }
+    ],
+    "senseIds": [
+      "verb:00968211"
+    ],
+    "contentStatus": "authored-draft",
+    "contextMeta": [
+      {
+        "meaning": "Spread information or ideas widely.",
+        "pos": "verb",
+        "senseLabel": "Primary GRE sense"
+      },
+      {
+        "meaning": "Spread information or ideas widely.",
+        "pos": "verb",
+        "senseLabel": "Primary GRE sense"
+      },
+      {
+        "meaning": "Spread information or ideas widely.",
+        "pos": "verb",
+        "senseLabel": "primary GRE sense: Spread information or ideas widely"
+      }
+    ],
+    "editorialStatus": "reviewed with caveats"
+  },
+  "grandiose": {
+    "word": "grandiose",
+    "canonical": "grandiose",
+    "meaning": "impressive because of unnecessary largeness or grandeur; used to show disapproval",
+    "pos": "adjective"
+  },
+  "bland": {
+    "word": "bland",
+    "canonical": "bland",
+    "meaning": "smoothly agreeable and courteous with a degree of sophistication",
+    "pos": "adjective"
+  },
+  "unproductive": {
+    "word": "unproductive",
+    "canonical": "unproductive",
+    "meaning": "Not producing useful results.",
+    "pos": "adjective"
+  },
+  "unambiguous": {
+    "word": "unambiguous",
+    "canonical": "unambiguous",
+    "meaning": "having or exhibiting a single clearly defined meaning",
+    "pos": "adjective"
+  },
+  "torturous": {
+    "word": "torturous",
+    "canonical": "torturous",
+    "pos": "adjective",
+    "meaning": "causing severe pain or suffering",
+    "contexts": [
+      "The ____ treatment left the patient in agony throughout the long procedure."
+    ],
+    "clues": [
+      "Agony establishes severe suffering."
+    ],
+    "distinction": "Torturous causes pain; tortuous twists or is complicated.",
+    "synonyms": []
+  },
+  "reticence": {
+    "word": "reticence",
+    "canonical": "reticence",
+    "meaning": "the trait of being uncommunicative; not volunteering anything more than necessary",
+    "pos": "noun"
+  },
+  "commended": {
+    "word": "commended",
+    "canonical": "commended",
+    "meaning": "A contrast word used in this question.",
+    "pos": "adjective"
+  },
+  "porous": {
+    "word": "porous",
+    "canonical": "porous",
+    "meaning": "full of pores or vessels or holes",
+    "pos": "adjective"
+  },
+  "satisfy": {
+    "word": "satisfy",
+    "canonical": "satisfy",
+    "meaning": "Meet a need or desire fully.",
+    "pos": "verb"
+  },
+  "ignore": {
+    "word": "ignore",
+    "canonical": "ignore",
+    "meaning": "be ignorant of or in the dark about",
+    "pos": "verb"
+  },
+  "ambiguity": {
+    "word": "ambiguity",
+    "canonical": "ambiguity",
+    "meaning": "unclearness by virtue of having more than one meaning",
+    "pos": "noun"
+  },
+  "humility": {
+    "word": "humility",
+    "canonical": "humility",
+    "meaning": "a disposition to be humble; a lack of false pride",
+    "pos": "noun"
+  },
+  "endorse": {
+    "word": "endorse",
+    "canonical": "endorse",
+    "meaning": "sign as evidence of legal transfer",
+    "pos": "verb"
+  },
+  "transparent": {
+    "word": "transparent",
+    "canonical": "transparent",
+    "meaning": "transmitting light; able to be seen through with clarity",
+    "pos": "adjective"
+  },
+  "alleviated": {
+    "id": "g06-04",
+    "word": "alleviated",
+    "raw": "alleviate",
+    "group": 6,
+    "position": 4,
+    "sourceCell": "K7",
+    "forms": {
+      "base": "alleviate",
+      "noun": null,
+      "verb": null,
+      "adjective": null,
+      "sourceCell": "B155"
+    },
+    "pos": "verb",
+    "meaning": "make suffering or difficulty less severe",
+    "synonyms": [
+      "relieve",
+      "ease"
+    ],
+    "hook": "A cool cloth soothes a throbbing forehead.",
+    "distinction": "Unlike cure, alleviate need not remove the cause.",
+    "contexts": [
+      "The new treatment may ____ pain without curing the disease.",
+      "Additional buses could ____ overcrowding during rush hour.",
+      "Subsidized heating was intended to ____ the hardship of families unable to keep their homes warm."
+    ],
+    "clues": [
+      "Pain relief is separated from cure.",
+      "Extra capacity eases crowding.",
+      "Assistance makes hardship less severe."
+    ],
+    "tag": "relief",
+    "canonical": "alleviate",
+    "otherSenses": [
+      {
+        "pos": "verb",
+        "definition": "provide physical relief, as from pain",
+        "synonyms": [
+          "relieve",
+          "palliate",
+          "assuage"
+        ],
+        "examples": [
+          "This pill will relieve your headaches"
+        ],
+        "offset": "00064095"
+      },
+      {
+        "pos": "verb",
+        "definition": "make easier",
+        "synonyms": [
+          "facilitate",
+          "ease"
+        ],
+        "examples": [
+          "you could facilitate the process by sharing your knowledge"
+        ],
+        "offset": "00518395"
+      }
+    ],
+    "senseIds": [
+      "verb:00064095",
+      "verb:00518395"
+    ],
+    "contentStatus": "authored-draft",
+    "contextMeta": [
+      {
+        "meaning": "make suffering or difficulty less severe",
+        "pos": "verb",
+        "senseLabel": "Primary GRE sense"
+      },
+      {
+        "meaning": "make suffering or difficulty less severe",
+        "pos": "verb",
+        "senseLabel": "Primary GRE sense"
+      },
+      {
+        "meaning": "make suffering or difficulty less severe",
+        "pos": "verb",
+        "senseLabel": "primary GRE sense: make suffering or difficulty less severe"
+      }
+    ],
+    "editorialStatus": "reviewed with caveats"
+  },
+  "indifferent": {
+    "word": "indifferent",
+    "canonical": "indifferent",
+    "pos": "adjective",
+    "meaning": "unconcerned or lacking interest",
+    "contexts": [
+      "He remained ____ to the outcome, caring neither whether the team won nor whether it lost."
+    ],
+    "clues": [
+      "Caring neither way indicates lack of concern."
+    ],
+    "distinction": "Indifferent means unconcerned; diffident means lacking self-confidence.",
+    "synonyms": []
+  },
+  "tolerant": {
+    "word": "tolerant",
+    "canonical": "tolerant",
+    "meaning": "showing or characterized by broad-mindedness",
+    "pos": "adjective"
+  },
+  "candor": {
+    "word": "candor",
+    "canonical": "candor",
+    "meaning": "the quality of being honest and straightforward in attitude and speech",
+    "pos": "noun"
+  },
+  "temperate": {
+    "word": "temperate",
+    "canonical": "temperate",
+    "meaning": "Moderate and restrained, especially in consumption.",
+    "pos": "adjective"
+  },
+  "exonerated": {
+    "word": "exonerated",
+    "canonical": "exonerated",
+    "meaning": "freed from any question of guilt",
+    "pos": "adjective"
+  },
+  "inconclusive": {
+    "word": "inconclusive",
+    "canonical": "inconclusive",
+    "meaning": "not conclusive; not putting an end to doubt or question",
+    "pos": "adjective"
+  },
+  "lucidity": {
+    "word": "lucidity",
+    "canonical": "lucidity",
+    "meaning": "free from obscurity and easy to understand; the comprehensibility of clear expression",
+    "pos": "noun"
+  },
+  "gluttonous": {
+    "word": "gluttonous",
+    "canonical": "gluttonous",
+    "meaning": "given to excess in consumption of especially food or drink",
+    "pos": "adjective"
+  },
+  "odorless": {
+    "word": "odorless",
+    "canonical": "odorless",
+    "meaning": "having no odor",
+    "pos": "adjective"
+  },
+  "weariness": {
+    "word": "weariness",
+    "canonical": "weariness",
+    "meaning": "Tiredness or lack of energy.",
+    "pos": "noun"
+  },
+  "impartial": {
+    "word": "impartial",
+    "canonical": "impartial",
+    "meaning": "free from undue bias or preconceived opinions",
+    "pos": "adjective"
+  },
+  "originality": {
+    "word": "originality",
+    "canonical": "originality",
+    "meaning": "the quality of being new and original (not derived from something else)",
+    "pos": "noun"
+  },
+  "opulence": {
+    "word": "opulence",
+    "canonical": "opulence",
+    "meaning": "wealth as evidenced by sumptuous living",
+    "pos": "noun"
+  },
+  "banality": {
+    "word": "banality",
+    "canonical": "banality",
+    "meaning": "a trite or obvious remark",
+    "pos": "noun"
+  },
+  "destitution": {
+    "word": "destitution",
+    "canonical": "destitution",
+    "meaning": "a state without friends or money or prospects",
+    "pos": "noun"
+  },
+  "quelled": {
+    "word": "quelled",
+    "canonical": "quelled",
+    "meaning": "subdued or overcome",
+    "pos": "adjective"
+  },
+  "caution": {
+    "word": "caution",
+    "canonical": "caution",
+    "meaning": "the trait of being cautious; being attentive to possible danger",
+    "pos": "noun"
+  },
+  "unsettled": {
+    "word": "unsettled",
+    "canonical": "unsettled",
+    "meaning": "not yet settled",
+    "pos": "adjective"
+  },
+  "sobriety": {
+    "word": "sobriety",
+    "canonical": "sobriety",
+    "meaning": "abstaining from excess",
+    "pos": "noun"
+  },
+  "measured": {
+    "word": "measured",
+    "canonical": "measured",
+    "meaning": "unhurried and with care and dignity",
+    "pos": "adjective"
+  },
+  "sociable": {
+    "word": "sociable",
+    "canonical": "sociable",
+    "meaning": "Enjoying company and social interaction.",
+    "pos": "noun"
+  },
+  "discord": {
+    "word": "discord",
+    "canonical": "discord",
+    "meaning": "strife resulting from a lack of agreement",
+    "pos": "noun"
+  },
+  "verify": {
+    "word": "verify",
+    "canonical": "verify",
+    "meaning": "confirm the truth of",
+    "pos": "verb"
+  },
+  "credible": {
+    "word": "credible",
+    "canonical": "credible",
+    "pos": "adjective",
+    "meaning": "believable or worthy of belief",
+    "contexts": [
+      "The witness offered a ____ account supported by records and independent observers."
+    ],
+    "clues": [
+      "Records and independent confirmation make an account believable."
+    ],
+    "distinction": "Credible describes a believable claim; credulous describes a person too ready to believe.",
+    "synonyms": []
+  },
+  "imminent": {
+    "word": "imminent",
+    "canonical": "imminent",
+    "pos": "adjective",
+    "meaning": "about to happen very soon",
+    "contexts": [
+      "With dark clouds overhead and the first drops falling, rain seemed ____."
+    ],
+    "clues": [
+      "The first drops and dark clouds indicate an event about to occur."
+    ],
+    "distinction": "Imminent means impending; eminent means distinguished.",
+    "synonyms": []
+  },
+  "prescribe": {
+    "word": "prescribe",
+    "canonical": "prescribe",
+    "pos": "verb",
+    "meaning": "recommend or order a treatment or course of action",
+    "contexts": [
+      "The physician may ____ antibiotics to treat the bacterial infection."
+    ],
+    "clues": [
+      "Ordering medicine is prescribing, not prohibiting it."
+    ],
+    "distinction": "Prescribe recommends or orders; proscribe forbids.",
+    "synonyms": []
+  },
+  "tractable": {
+    "word": "tractable",
+    "canonical": "tractable",
+    "pos": "adjective",
+    "meaning": "easy to manage, control, or resolve",
+    "contexts": [
+      "Unlike the stubborn previous patient, the ____ child cooperated with every examination."
+    ],
+    "clues": [
+      "Cooperation rather than stubbornness signals manageability."
+    ],
+    "distinction": "Tractable is manageable; intractable resists management.",
+    "synonyms": []
+  },
+  "elusive": {
+    "word": "elusive",
+    "canonical": "elusive",
+    "pos": "adjective",
+    "meaning": "difficult to find, capture, or understand",
+    "contexts": [
+      "Despite years of searches, the ____ animal repeatedly escaped observation and capture."
+    ],
+    "clues": [
+      "Repeated failure to find or catch the animal shows elusiveness."
+    ],
+    "distinction": "Elusive is hard to catch or grasp; allusive makes indirect references.",
+    "synonyms": []
+  },
+  "reticent": {
+    "word": "reticent",
+    "canonical": "reticent",
+    "pos": "adjective",
+    "meaning": "reserved and unwilling to speak openly",
+    "contexts": [
+      "Usually ____, she kept her opinions private and said almost nothing about her personal life."
+    ],
+    "clues": [
+      "Keeping opinions private and saying little show reserve."
+    ],
+    "distinction": "Reticent concerns speaking; reluctant concerns unwillingness to act.",
+    "synonyms": []
+  }
+}

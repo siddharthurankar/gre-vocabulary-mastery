@@ -1,0 +1,13 @@
+{
+  "name": "gre-vocabulary-mastery",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Browser-based GRE vocabulary study with recall, contexts, narration and spaced repetition.",
+  "scripts": {
+    "test": "node tests/engine.test.mjs && node tests/navigation.test.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

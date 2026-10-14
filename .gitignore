@@ -1,0 +1,21 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+# Runtime progress, sessions and private uploads
+*.sqlite*
+*.db
+*progress*backup*.json
+gre-progress-*.json
+backups/
+uploads/
+runtime/
+*.xlsx
+# Tool-generated and platform files
+node_modules/
+__pycache__/
+*.pyc
+.DS_Store
+*.log
