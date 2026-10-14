@@ -117,3 +117,9 @@ export function validateBackup(x,data){
  if(!Number.isFinite(Number(x.settings.rate))||Number(x.settings.rate)<.5||Number(x.settings.rate)>2)throw Error('Invalid reading speed in backup.');
  return reconcileGroupSessions({...emptyState(),...x,settings:{...emptyState().settings,...x.settings},seen:x.seen??{},flags:x.flags??{},hooks:x.hooks??{},groups:x.groups??{}},data);
 }
+
+// Keep each group/part independent when switching between study sessions.
+export function saveGroupPart(state){
+ const s=state.session;if(s?.mode!=='group')return;
+ state.savedParts??={};state.savedParts[s.group+':'+s.stage]=JSON.parse(JSON.stringify(s));
+}

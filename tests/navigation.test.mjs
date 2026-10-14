@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
-import {emptyState,question,rememberQuestion,jumpToWord,resetStudyProgress,recordAnswer} from '../web/engine.mjs';
+import {emptyState,question,rememberQuestion,jumpToWord,resetStudyProgress,recordAnswer,saveGroupPart} from '../web/engine.mjs';
 const d=JSON.parse(fs.readFileSync(new URL('../web/data.json',import.meta.url)));
 let n=0;
 for(const g of d.groups)for(const e of g.words)for(const stage of ['recognize','practice']){
@@ -17,3 +17,12 @@ session={queue:['a','b','c'],index:0,current:{answered:true},revealed:false};jum
 const s=emptyState(),e=d.groups[0].words[0];s.settings.rate=1.25;s.hooks[e.canonical]='My personal hook';s.flags['card:'+e.canonical]=1;recordAnswer(s,e,'recognize',true,false);s.session=session;s.seen.example=3;s.reviewSets=5;
 const fresh=resetStudyProgress(s);assert.deepEqual(fresh.words,{});assert.deepEqual(fresh.placements,{});assert.deepEqual(fresh.history,[]);assert.deepEqual(fresh.seen,{});assert.deepEqual(fresh.lastVariants,{});assert.equal(fresh.session,null);assert.equal(fresh.settings.rate,1.25);assert.equal(fresh.hooks[e.canonical],'My personal hook');assert.equal(fresh.flags['card:'+e.canonical],1);assert(s.words[e.canonical]);
 console.log(`PASS: ${n} word/stage checks over four repeated questions each; contexts and answer order vary without needing an answer. Word jumps preserve remaining work; reset clears stats and preserves hooks/settings/flags.`);
+
+const switching=emptyState();
+switching.session={mode:'group',group:1,stage:'learn',queue:['g01-01','g01-02'],index:1};
+saveGroupPart(switching);switching.session.index=0;
+assert.equal(switching.savedParts['1:learn'].index,1,'Saved group must be independent of active session');
+switching.session={mode:'group',group:39,stage:'learn',queue:['g39-01'],index:0};
+saveGroupPart(switching);assert.equal(switching.savedParts['1:learn'].index,1);assert.equal(switching.savedParts['39:learn'].index,0);
+switching.session={mode:'due',group:null,stage:'recognize'};saveGroupPart(switching);assert.equal(Object.keys(switching.savedParts).length,2);
+console.log('PASS: Switching groups preserves separate positions without sharing mutable session objects.');
