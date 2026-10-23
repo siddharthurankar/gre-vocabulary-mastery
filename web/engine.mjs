@@ -105,14 +105,20 @@ export function validateBackup(x,data){
  for(const [id,p] of Object.entries(x.words)){if(!known.has(id)||!p||!p.recognition||!p.application||!Array.isArray(p.reviewDays)||!Number.isInteger(p.misses)||p.misses<0||!(p.due===null||Number.isFinite(p.due))||!Number.isInteger(p.reviewStep)||p.reviewStep<0||p.reviewStep>5)throw Error('The backup contains invalid progress.');for(const m of [p.recognition,p.application])if(!Number.isInteger(m.right)||!Number.isInteger(m.total)||m.right<0||m.total<m.right)throw Error('Invalid score in backup.')}
  const ids=new Set(data.groups.flatMap(g=>g.words).map(x=>x.id));
  for(const id of Object.keys(x.placements))if(!ids.has(id))throw Error('The backup contains unknown vocabulary entries.');
- if(x.session){const s=x.session;
-  if(!Array.isArray(s.queue)||s.queue.some(id=>!ids.has(id))||!Number.isInteger(s.index)||s.index<0||s.index>s.queue.length||!['learn','recognize','practice'].includes(s.stage)||!['group','due','hard','equivalence'].includes(s.mode)||!Array.isArray(s.attempts)||!Array.isArray(s.skipped)||!s.retries||typeof s.retries!=='object'||(s.mode==='group'&&!data.groups.some(g=>g.id===s.group)))throw Error('Invalid saved session.');
+ const validateSession=s=>{
+  if(!s||typeof s!=='object'||Array.isArray(s))throw Error('Invalid saved session.');
+  if(!Array.isArray(s.queue)||s.queue.some(id=>!ids.has(id))||!Number.isInteger(s.index)||s.index<0||s.index>s.queue.length||!['learn','recognize','practice'].includes(s.stage)||!['group','due','hard','equivalence'].includes(s.mode)||!Array.isArray(s.attempts)||!Array.isArray(s.skipped)||!s.retries||typeof s.retries!=='object'||Array.isArray(s.retries)||(s.mode==='group'&&!data.groups.some(g=>g.id===s.group)))throw Error('Invalid saved session.');
   const q=s.current;
   if(q){const pair=q.type==='equivalence';
    if(q.entryId!==s.queue[s.index]||typeof q.prompt!=='string'||typeof q.id!=='string'||!Array.isArray(q.options)||q.options.length!==(pair?6:5)||q.options.filter(o=>o.correct).length!==(pair?2:1)||q.options.some(o=>typeof o.label!=='string'||typeof o.meaning!=='string'&&o.canonical!==null))throw Error('Invalid saved question.');
    if(pair&&(!Array.isArray(q.selected)||q.selected.length>2||q.selected.some(i=>!Number.isInteger(i)||i<0||i>5)))throw Error('Invalid saved answer.');
    if(!pair&&q.selected!==null&&(!Number.isInteger(q.selected)||q.selected<0||q.selected>4))throw Error('Invalid saved answer.');
   }
+ };
+ if(x.session)validateSession(x.session);
+ for(const [key,s] of Object.entries(x.savedParts??{})){
+  validateSession(s);
+  if(s.mode!=='group'||key!==s.group+':'+s.stage)throw Error('Invalid saved group part.');
  }
  if(!Number.isFinite(Number(x.settings.rate))||Number(x.settings.rate)<.5||Number(x.settings.rate)>2)throw Error('Invalid reading speed in backup.');
  return reconcileGroupSessions({...emptyState(),...x,settings:{...emptyState().settings,...x.settings},seen:x.seen??{},flags:x.flags??{},hooks:x.hooks??{},groups:x.groups??{}},data);
