@@ -1,5 +1,15 @@
 # Release notes
 
+## October 23, 2026 — Wide study board
+
+- Reordered synonym cards: Simple meaning, Meaning in use, Quick recall, Recall answer, Instructor’s usage & distinctions, Words in this family, then More contexts & other meanings. Memory hooks and word families remain visible afterward.
+- Replaced the additional-context dropdown with an always-visible panel. Preserved every existing context, dictionary sense, example, definition, memory hook and content flag.
+- Added responsive horizontal panels to both libraries’ learning cards, wider content areas, compact navigation, side-by-side quiz choices and explanations, and denser library/collection grids.
+- Moved Learn ratings into the audio toolbar on desktop to save vertical space without overlaying the card.
+- Preserved logical DOM/narration order, tap pronunciation, quiz behavior, saved sessions and progress storage.
+- Regression checks cover all 3,223 cards. Browser audit covered primary routes, desktop card fit, narrow-screen reflow, and full-card narration. Long content remains scrollable rather than being clipped or reduced to unreadable text.
+- Fallback branch: `checkpoint/before-wide-study-layout-2026-10-23` (accepted version before these changes).
+
 ## October 23, 2026 — Synonym Groups checkpoint
 
 This checkpoint preserves the accepted local app, including the new instructor-based library. No deployment or cloud synchronization is enabled by this save.
