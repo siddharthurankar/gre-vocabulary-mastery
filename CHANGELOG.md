@@ -1,5 +1,12 @@
 # Release notes
 
+## October 23, 2026 — Ordered visual learning map
+
+- Replaced independent tiles with four numbered, consistently placed regions: Understand, Recall, Connect & distinguish, and Explore & remember.
+- Grouped meaning with its example, recall prompt with its answer, and usage distinctions with related words. Kept the requested section and narration order.
+- Added a clear typography hierarchy, a distinct recall background, subtle dividers, target-word emphasis, and aligned panel boundaries. All contexts and memory aids stay visible.
+- Preserved content and progress; rendering/narration checks pass for all 3,223 placements. Representative laptop fit and responsive reflow were checked. Long content can still require scrolling.
+
 ## October 23, 2026 — Wide study board
 
 - Reordered synonym cards: Simple meaning, Meaning in use, Quick recall, Recall answer, Instructor’s usage & distinctions, Words in this family, then More contexts & other meanings. Memory hooks and word families remain visible afterward.
