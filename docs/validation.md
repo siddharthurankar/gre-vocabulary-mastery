@@ -1,5 +1,14 @@
 # Validation scope
 
+## Saved group backup regression
+
+`tests/backup.test.mjs` checks that saved group parts receive the same session,
+queue, question, and answer validation as the active session before restore.
+It rejects malformed parts and mismatched group/stage keys, and checks valid
+quiz round trips, completed parts, reconciliation of newly added words, and
+older backups with no saved parts. These are automated engine checks; they
+do not replace a browser export/restore smoke test.
+
 The question engine has been checked across all 1,171 placements and both recognition/application stages for option counts, marked correct answers, rotating variants, content quarantine, review dates, delayed retention, retries and backup validation. Navigation checks cover four consecutive questions per placement/stage, queue-preserving word jumps and preference-preserving reset.
 
 Additional local checks covered Sentence Equivalence and multi-blank all-or-nothing scoring, 40 look-alike drill questions, larger set sizes/deadlines, weakest-first ordering, idempotent grading and mistake-journal retries. Group 39 has 21 supplied-meaning cards and 64 contexts; the prior 38 groups remain unchanged.
