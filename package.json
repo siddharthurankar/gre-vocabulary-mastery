@@ -5,7 +5,7 @@
   "type": "module",
   "description": "Browser-based GRE vocabulary study with recall, contexts, narration and spaced repetition.",
   "scripts": {
-    "test": "node tests/engine.test.mjs && node tests/navigation.test.mjs && node tests/narration.test.mjs"
+    "test": "node tests/engine.test.mjs && node tests/navigation.test.mjs && node tests/narration.test.mjs && node tests/synonyms.test.mjs"
   },
   "engines": {
     "node": ">=20"

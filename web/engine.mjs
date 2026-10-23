@@ -43,7 +43,7 @@ export function dueEntries(data,state,now=Date.now()){
 }
 function tokens(text){return new Set(text.toLowerCase().match(/[a-z]+/g)?.filter(x=>!['a','an','the','of','to','or','and','in','is','with','being','very','someone','something'].includes(x))??[])}
 export function distinct(a,b){
- if(a.canonical===b.canonical||a.pos!==b.pos||a.tag===b.tag)return false;
+ if(a.word.toLowerCase()===b.word.toLowerCase()||a.canonical===b.canonical||a.pos!==b.pos||a.tag===b.tag)return false;
  if(a.distractorExclusions?.includes(b.word)||b.distractorExclusions?.includes(a.word))return false;
  const equivalents=e=>[e.canonical,...e.synonyms,...(e.otherSenses??[]).flatMap(x=>x.synonyms??[])].map(x=>x.toLowerCase());
  const as=new Set(equivalents(a)),bs=new Set(equivalents(b));if([...as].some(x=>bs.has(x)))return false;
@@ -63,7 +63,7 @@ export function question(source,stage,data,state,group,rng=Math.random){
  const variant=shuffle(eligible.filter(i=>(state.seen[prefix+i]??0)===min),rng)[0];
  const meta=stage==='practice'?source.contextMeta?.[variant]:null;
  const entry=meta?{...source,meaning:meta.meaning,pos:meta.pos,tag:meta.senseLabel??source.tag}:source;
- const all=[...new Map(data.groups.flatMap(g=>g.words).map(w=>[w.canonical,w])).values()].filter(x=>!state.flags['card:'+x.canonical]);
+ const all=[...new Map(data.groups.filter(g=>source.sourceHeading?g.library==='synonyms':g.library!=='synonyms').flatMap(g=>g.words).map(w=>[w.canonical,w])).values()].filter(x=>!state.flags['card:'+x.canonical]);
  const grammarFits=x=>{
   if(x.pos!==entry.pos)return false;
   return true;

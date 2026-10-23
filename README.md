@@ -4,6 +4,10 @@ A browser-based GRE vocabulary study app with learning cards, recognition quizze
 
 **Current status:** source repository with a working local app. No public website, Netlify deployment, or Supabase integration is configured.
 
+## Synonym Groups
+
+A separate instructor-based library adds 685 meaning families and 2,052 entries, arranged into 137 groups of five consecutive headings. The original 39 groups remain unchanged. Usage notes and source pages are retained. Each group supports Learn, Recognize, Apply, narration, and saved reviews. New sense-specific progress is separate from the original library. Practice uses instructor usage sentences where suitable and explicitly labelled meaning-in-use situations elsewhere; this is not a full new bank of realistic GRE questions. See [import notes](docs/synonym-import.md).
+
 ## Features
 
 - 39 groups, 1,171 word placements, and 1,149 unique words. Original group order is preserved.

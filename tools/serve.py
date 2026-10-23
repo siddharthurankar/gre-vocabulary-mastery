@@ -10,7 +10,7 @@ if not local and (not tls or not args.public_origin or args.preview):parser.erro
 if args.public_origin and not args.public_origin.startswith('https://'):parser.error('--public-origin must use trusted HTTPS.')
 store=Path(args.database).expanduser();store.parent.mkdir(parents=True,exist_ok=True);os.chmod(store.parent,0o700)
 conn=sqlite3.connect(store);conn.executescript('CREATE TABLE IF NOT EXISTS users(name TEXT PRIMARY KEY,salt TEXT,hash TEXT);CREATE TABLE IF NOT EXISTS sessions(token TEXT PRIMARY KEY,user TEXT,expires REAL);CREATE TABLE IF NOT EXISTS progress(user TEXT PRIMARY KEY,revision INTEGER NOT NULL,state TEXT);');conn.close();os.chmod(store,0o600)
-root=Path(__file__).resolve().parent.parent/'web';data=json.loads((root/'data.json').read_text());known={e['canonical'] for g in data['groups'] for e in g['words']};entryids={e['id'] for g in data['groups'] for e in g['words']}
+root=Path(__file__).resolve().parent.parent/'web';data=json.loads((root/'data.json').read_text());data['groups']+=json.loads((root/'synonyms.json').read_text())['groups'];known={e['canonical'] for g in data['groups'] for e in g['words']};entryids={e['id'] for g in data['groups'] for e in g['words']}
 lock=threading.Lock();attempts={};scheme='https' if tls else 'http';origin=args.public_origin or f'{scheme}://{args.host}:{args.port}';allowedhosts={urllib.parse.urlparse(origin).netloc,f'127.0.0.1:{args.port}',f'localhost:{args.port}'}
 def db():return sqlite3.connect(store,timeout=15)
 def digest(password,salt):return hashlib.pbkdf2_hmac('sha256',password.encode(),bytes.fromhex(salt),500000).hex()
